@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-### Laravel 10 full course
+# Laravel 10 full course
 
 ## About Laravel
 

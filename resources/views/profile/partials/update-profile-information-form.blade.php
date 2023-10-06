@@ -15,6 +15,7 @@
 
     <form method="post" action="{{ route('profile.update') }}" class="mt-6 space-y-6">
         @csrf
+        <!-- method spoofing -->
         @method('patch')
 
         <!-- avatar -->
@@ -25,6 +26,7 @@
             <x-input-error class="mt-2" :messages="$errors->get('avatar')" />
         </div>
 
+        <!-- avatar end -->
         <!-- name -->
         <div>
             <x-input-label for="name" :value="__('Name')" />

@@ -45,7 +45,7 @@
             </a>
 
             <x-primary-button class="ml-4">
-                {{ __('Register') }} //localization feature of laravel
+                {{ __('Register') }}
             </x-primary-button>
         </div>
     </form>
